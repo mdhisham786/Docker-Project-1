@@ -1,8 +1,8 @@
 pipeline {
 
   environment {
-    registry = "10.128.15.208:5000/mgsgoms/flask"
-    registry_mysql = "10.128.15.208:5000/mgsgoms/mysql"
+    registry = "https://github.com/mdhisham786/Docker-Project-1/tree/master/flask"
+    registry_mysql = "https://github.com/mdhisham786/Docker-Project-1/tree/master/mysql"
     dockerImage = ""
   }
 
